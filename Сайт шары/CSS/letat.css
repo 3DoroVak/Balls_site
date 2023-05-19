@@ -146,3 +146,27 @@
     line-height: 18px;
 }
 
+.stranst_section {
+    position: relative;
+}
+
+.stranst_text {
+    background-image: url("/Сайт шары/image/-gNBxSiA984\ 1111.png");
+    height: 1000px;
+    position: relative;
+    top: 900px;
+    width: 1500px;
+}
+
+.h2_stranst_text {
+    position: absolute;
+    top: 400px;
+    left: 480px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 112px; 
+}

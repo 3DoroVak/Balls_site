@@ -1,15 +1,15 @@
 .main_header {
     position: relative;
-    width: 1492px;
+    width: 1500px;
     height: 890px;
     left: 0px;
     top: -9px;
-    background: url(C:\Users\egort\OneDrive\Рабочий стол\Документы\GitHub\Balls_site\Сайт шары\image\IMG_0180 1start.png);
+    background: url("/Сайт шары/image/IMG_0180\ 1start.png");
 }
 
 .div_header {
     position: fixed;
-    width: 1500px;
+    width: 1508px;
     height: 72px;
     left: -8px;
     top: -7px;
@@ -137,7 +137,7 @@
     height: 224px;
     left: 124px;
     top: 192px;
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 85px;
