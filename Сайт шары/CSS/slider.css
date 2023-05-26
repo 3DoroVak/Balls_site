@@ -1,0 +1,31 @@
+.section_reviews{
+    position: relative;
+    background-color: aqua;
+    top: 950px;
+    width: 1500px;
+}
+.swiper-container {
+    position: relative;
+    top: 0px;
+    background-color: blueviolet;
+    width: 1500px;
+    height: 500px;
+}
+.image-slider {
+    text-align: center;
+}
+
+.swiper-wrapper {
+    min-width: 0;
+}
+
+.swiper-button-prev::after {
+    color: #4F2100;
+    font-size: 80px;
+    position: absolute;
+    left: 0px;
+}
+.swiper-button-next::after {
+    color: #4F2100;
+    font-size: 80px;
+}
