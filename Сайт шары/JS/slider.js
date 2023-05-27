@@ -11,4 +11,14 @@ new Swiper('.swiper-container', {
     },
     
     grabCursor: true,
+
+    effect: 'fade',
+
+    fadeEffect: {
+        crossFade: true
+    },
+
+    speed: 1000,
+
+    loop: true,
 });

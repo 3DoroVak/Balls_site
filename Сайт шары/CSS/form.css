@@ -1,0 +1,32 @@
+.div_form {
+    position: relative;
+    top: 1400px;
+    height: 1000px;
+    width: 1500px;
+    background-image: url("/Сайт шары/image/Duncan-Rawlinson-Photo-115664-Albuquerque-International-Balloon-Fiesta-Albuquerque-New-Mexico-USA-20141011-IMG_8780\ 1qqqqqqqqqq.png");
+}
+
+.h3_form {
+    position: absolute;;
+    left: calc(50% - 482px/2);
+    top: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 92px;
+    color: #FFFFFF;
+}
+
+.p_form {
+    position: absolute;
+    left: calc(50% - 541px/2 - 0.5px);
+    top: 250px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}

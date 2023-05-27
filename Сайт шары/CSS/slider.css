@@ -1,13 +1,11 @@
 .section_reviews{
     position: relative;
-    background-color: aqua;
     top: 950px;
     width: 1500px;
 }
 .swiper-container {
     position: relative;
-    top: 0px;
-    background-color: blueviolet;
+    top: 400px;
     width: 1500px;
     height: 500px;
 }
@@ -21,11 +19,51 @@
 
 .swiper-button-prev::after {
     color: #4F2100;
-    font-size: 80px;
+    font-size: 40px;
     position: absolute;
-    left: 0px;
+    left: 300px;
 }
 .swiper-button-next::after {
     color: #4F2100;
-    font-size: 80px;
+    font-size: 40px;
+    position: absolute;
+    right: 300px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #4F2100;
+    filter: contrast(100%);
+}
+
+.swiper-pagination-bullet:hover {
+    background-color: #FFB800;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFB800;
+}
+
+.h3_section_review {
+    position: absolute;
+    left: 449px;
+    top: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 69px;
+    color: #FFB800;
+}
+
+.p_section_review {
+    position: absolute;
+    left: 477px;
+    top: 220px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #4F2100;
 }
