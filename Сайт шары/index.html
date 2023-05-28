@@ -464,13 +464,32 @@
                     мы свяжемся с вами, чтобы рассказать<br>
                     подробнее о полете на воздушном шаре.
                 </p>
-                <form>
-                    <input
+                <form method="post" class="calc_form" id="calc_form" onsubmit="return calcform(this)">
+                    <input type="text" placeholder="Ваше имя" name="name" id="name" class="name_form"><br>
+                    <input type="tel" placeholder="Ваш телефон" name="tel" id="tel" class="tel_form"><br>
+                    <label for="polet" class="poletLabel_form">Вариант полета</label>
+                    <select id="polet" name="polet" class="polet_form">
+                        <option value="1">Групповой полёт</option>
+                        <option value="2">Индивидуальный полёт</option>
+                        <option value="3">Привязной полёт</option>
+                        <option value="4">Панорамный полёт</option>
+                        <option value="5">Курс для воздухоплавателя</option>
+                    </select><br>
+                    <label for="number" class="numberLabel_form">Количество гостей</label><br>
+                    <input type="number" id="number" name="number" placeholder="3" class="number_form"><br>
+                    <span class="radioSpan_form">Хотите приобрести сертификат?</span><br>
+                    <input type="radio" name="radio" id="radio1" value="1" class="radio1_form">
+                    <label for="radio1" class="radio1Label_form">Электронный</label><br>
+                    <input type="radio" name="radio" id="radio2" value="2" class="radio2_form">
+                    <label for="radio2" class="radio2Label_form">Печатный</label><br>
+                    <div id="error" class="error"></div>
+                    <button type="submit" class="button_form">Отправить</button>
                 </form>
             </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="/Сайт шары/JS/slider.js"></script>
+    <script src="/Сайт шары/JS/form.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 .h3_form {
     position: absolute;;
     left: calc(50% - 482px/2);
-    top: 100px;
+    top: 60px;
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: 600;
@@ -21,7 +21,7 @@
 .p_form {
     position: absolute;
     left: calc(50% - 541px/2 - 0.5px);
-    top: 250px;
+    top: 210px;
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: 400;
@@ -29,4 +29,176 @@
     line-height: 32px;
     color: #FFFFFF;
     text-align: center;
+}
+
+.name_form {
+    position: absolute;
+    left: calc(50% - 456px/2);
+    top: 370px;
+    width: 456px;
+    height: 57px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(65, 27, 0, 0.6);
+    padding: 0 0 0 20px;
+}
+
+.tel_form {
+    position: absolute;
+    left: calc(50% - 456px/2);
+    top: 460px;
+    width: 456px;
+    height: 57px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(65, 27, 0, 0.6);
+    padding: 0 0 0 20px;
+}
+
+.polet_form {
+    position: absolute;
+    width: 475px;
+    height: 57px;
+    top: 580px;
+    left: calc(50% - 456px/2);
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #411B00;
+    padding: 0 0 0 15px;
+}
+
+.poletLabel_form {
+    position: absolute;
+    top: 540px;
+    left: calc(50% - 456px/2);
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.number_form {
+    position: absolute;
+    width: 475px;
+    height: 57px;
+    top: 700px;
+    left: calc(50% - 456px/2);
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #411B00;
+    padding: 0 0 0 15px;
+}
+
+.numberLabel_form {
+    position: absolute;
+    top: 660px;
+    left: calc(50% - 456px/2);
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.radio1_form {
+    position: absolute;
+    top: 830px;
+    left: 35%;
+}
+
+.radio2_form {
+    position: absolute;
+    top: 870px;
+    left: 35%;
+}
+
+.radioSpan_form {
+    position: absolute;
+    left: 35%;
+    top: 780px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.radio1Label_form {
+    position: absolute;
+    top: 820px;
+    left: 37%;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.radio2Label_form {
+    position: absolute;
+    top: 860px;
+    left: 37%;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.button_form {
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    left: 600px;
+    top: 920px;
+    background: #FFB800;
+    border-radius: 40px;
+    color: #4F2100;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.error {
+    color: red;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+    position: absolute;
+    top: 900px;
+    left: 42%;
+}
+
+alert {
+    background-color: #411B00;
 }

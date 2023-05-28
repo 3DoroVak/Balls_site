@@ -21,7 +21,6 @@
 
 .section_presents {
     position: relative;
-    background-color: aqua;
     width: 1500px;
     height: 700px;
     top: 1400px;
@@ -88,6 +87,6 @@
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
 }
