@@ -15,7 +15,13 @@ function calcform(el) {
     if(fail != ''){
         document.getElementById('error').innerHTML = fail;
     }else{
-        alert('Все данные успешно отправлены');
+        document.getElementById('button_form').addEventListener('click',function(){
+            document.getElementById('modal').classList.add('open');
+        })
     }
     return false;
 }
+
+document.getElementById('otmena').addEventListener('click',function(){
+    document.getElementById('modal').classList.remove('open');
+})

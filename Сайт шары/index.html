@@ -456,7 +456,7 @@
 
         <section>
             <div class="div_form">
-                <h3 class="h3_form">
+                <h3 class="h3_form" id="from_h3">
                     ЗАПИСАТЬСЯ
                 </h3>
                 <p class="p_form">
@@ -483,9 +483,16 @@
                     <input type="radio" name="radio" id="radio2" value="2" class="radio2_form">
                     <label for="radio2" class="radio2Label_form">Печатный</label><br>
                     <div id="error" class="error"></div>
-                    <button type="submit" class="button_form">Отправить</button>
+                    <button type="submit" class="button_form" id="button_form">Отправить</button>
                 </form>
             </div>
+            <div class="modal" id="modal">
+                <div class="modalBox">
+                    <h2 class="h2_modal">Все данные успешно отправлены</h2>
+                    <button class="otmena" id="otmena">Спасибо</button>
+                </div>
+            </div>
+            
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
