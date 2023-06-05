@@ -1,0 +1,95 @@
+.map_section {
+    position: relative;
+    background-color: #69452B;
+    top: 1400px;
+    height: 700px;
+    width: 100%;
+}
+
+.map_map {
+    position: absolute;
+    width: 50%;
+    right: 0%;
+}
+
+.img_map {
+    border-radius: 10px;
+    position: absolute;
+    left: 6%;
+    top: 460px;
+}
+
+.locate_map {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 69px;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    position: absolute;
+    top: 100px;
+    left: 6%;
+}
+
+.locateMap_par {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    top: 100px;
+    position: absolute;
+    top: 200px;
+    left: 6%;
+}
+
+.locateMap_parag {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    top: 100px;
+    position: absolute;
+    top: 280px;
+    left: 6%;
+}
+
+.questions_map {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    top: 100px;
+    position: absolute;
+    top: 360px;
+    left: 6%;
+}
+
+.questions_map_a {
+    color: #FFB800;
+}
+
+.news_map {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    top: 100px;
+    position: absolute;
+    top: 410px;
+    left: 6%;
+}
