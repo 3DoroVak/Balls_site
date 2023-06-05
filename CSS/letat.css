@@ -151,11 +151,11 @@
 }
 
 .stranst_text {
-    background-image: url("/Сайт шары/image/-gNBxSiA984\ 1111.png");
+    background-image: url("/image/-gNBxSiA984\ 1111.png");
     height: 1000px;
     position: relative;
     top: 900px;
-    width: 1500px;
+    width: 100%;
 }
 
 .h2_stranst_text {

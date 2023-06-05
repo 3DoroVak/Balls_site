@@ -36,6 +36,9 @@
     height: 65px;
     background: #FFB800;
     border-radius: 40px;
+}
+
+.button_photo_a {
     color: #4F2100;
     font-family: 'Roboto Slab', serif;
     font-style: normal;

@@ -89,7 +89,7 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    background: url("/Сайт шары/image/Ellipse\ 21.png") no-repeat center/30px 30px;
+    background: url("/image/Ellipse\ 21.png") no-repeat center/30px 30px;
 }
 
 .spanText_kakPolet {
@@ -105,11 +105,11 @@
 }
 
 .div_sectionOpt {
-    background: url("/Сайт шары/image/bDPZs6x6cfE\ 122222.png");
+    background: url("/image/bDPZs6x6cfE\ 122222.png");
     position: relative;
     top: 950px;
     height: 900px;
-    width: 1500px;
+    width: 100%;
     text-align: center;
 }
 

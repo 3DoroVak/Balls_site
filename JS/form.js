@@ -12,12 +12,12 @@ function calcform(el) {
         fail = 'Введите корректное имя';
     }
 
-    if(fail != ''){
-        document.getElementById('error').innerHTML = fail;
-    }else{
+    if(fail == ''){
         document.getElementById('button_form').addEventListener('click',function(){
             document.getElementById('modal').classList.add('open');
         })
+    }else{
+        document.getElementById('error').innerHTML = fail;
     }
     return false;
 }

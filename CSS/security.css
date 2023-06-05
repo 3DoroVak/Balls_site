@@ -82,11 +82,11 @@
 }
 
 .div_dream {
-    background: url("/Сайт шары/image/Mi_7L3mx318\ 198765432.png");
+    background: url("/image/Mi_7L3mx318\ 198765432.png");
     position: relative;
     top: 950px;
     height: 700px;
-    width: 1500px;
+    width: 100%;
     text-align: center;
 }
 
