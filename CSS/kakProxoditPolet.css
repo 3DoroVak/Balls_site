@@ -89,7 +89,7 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    background: url("/image/Ellipse\ 21.png") no-repeat center/30px 30px;
+    background: url("https://3dorovak.github.io/Balls_site/image/Ellipse\ 21.png") no-repeat center/30px 30px;
 }
 
 .spanText_kakPolet {
@@ -105,7 +105,7 @@
 }
 
 .div_sectionOpt {
-    background: url("/image/bDPZs6x6cfE\ 122222.png");
+    background: url("https://3dorovak.github.io/Balls_site/image/bDPZs6x6cfE\ 122222.png");
     position: relative;
     top: 950px;
     height: 900px;
